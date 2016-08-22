@@ -55,6 +55,15 @@ extension UIColor {
         return self.brighten(color: color, multiplier: 1.2)
     }
     
+    /**
+     Brighten a color (modifies the brightness component in HSB color format)
+     
+     # Parameters:
+     - color: The color to brighten
+     - multiplier: The brightening factor (to multiply the brightness component by)
+     
+     - Returns: A brighter version of the input color.
+     */
     class func brighten(color: UIColor, multiplier: CGFloat) -> UIColor {
         
         var brighterColor = color
