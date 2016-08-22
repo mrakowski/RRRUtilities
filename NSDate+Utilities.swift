@@ -1,6 +1,6 @@
 //
 //  NSDate+Utilities.swift
-//  Comfort
+//  RRRUtilities
 //
 //  Created by Michael Rakowski on 8/8/16.
 //  Copyright © 2016 Constant Practice Inc.

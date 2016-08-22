@@ -1,6 +1,6 @@
 //
 //  UIColor+Utilities.swift
-//  Utilities
+//  RRRUtilities
 //
 //  Created by Michael Rakowski on 8/7/16.
 //  Copyright © 2016 Constant Practice Inc.
