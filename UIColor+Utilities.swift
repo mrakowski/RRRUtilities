@@ -41,10 +41,16 @@ extension UIColor {
         var bri : CGFloat = 0.0
         var alp : CGFloat = 0.0
         
-        let gotHSB = color.getHue(&hue, saturation: &sat, brightness: &bri, alpha: &alp)
+        let gotHSB = color.getHue(&hue,
+                                  saturation: &sat,
+                                  brightness: &bri,
+                                  alpha: &alp)
         
         if (gotHSB) {
-            desaturatedColor = UIColor.init(hue: hue/2, saturation: sat/2, brightness: bri/2, alpha: alp)
+            desaturatedColor = UIColor.init(hue: hue/2,
+                                            saturation: sat/2,
+                                            brightness: bri/2,
+                                            alpha: alp)
         }
         
         return desaturatedColor
