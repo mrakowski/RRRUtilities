@@ -62,7 +62,7 @@ extension UIColor {
      - color: The color to brighten
      - multiplier: The brightening factor (to multiply the brightness component by)
      
-     - Returns: A brighter version of the input color (if there was an error computing the brighter color, the original color will be returned).
+     - Returns: A brighter version of the input color (if there was an error computing the HSB representation of the color, the original color will be returned).
      */
     class func brighten(color: UIColor, multiplier: CGFloat) -> UIColor {
         
