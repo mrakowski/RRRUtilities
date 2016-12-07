@@ -1,6 +1,6 @@
 # RRRUtilities
 
-A collection of generic utility extensions written in Swift.
+A collection of utility extensions written in Swift.
 
 ## NSDate+Utilities.swift
 
