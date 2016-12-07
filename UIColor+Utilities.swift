@@ -35,7 +35,6 @@ extension UIColor {
     class func desaturate(color: UIColor) -> UIColor {
     
         var desaturatedColor = color
-        
         var hue : CGFloat = 0.0
         var sat : CGFloat = 0.0
         var bri : CGFloat = 0.0
@@ -57,7 +56,6 @@ extension UIColor {
     }
     
     class func brighten(color: UIColor) -> UIColor {
-     
         return self.brighten(color: color, multiplier: 1.2)
     }
     
@@ -73,7 +71,6 @@ extension UIColor {
     class func brighten(color: UIColor, multiplier: CGFloat) -> UIColor {
         
         var brighterColor = color
-        
         var hue : CGFloat = 0.0
         var sat : CGFloat = 0.0
         var bri : CGFloat = 0.0
